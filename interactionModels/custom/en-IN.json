@@ -1,0 +1,566 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "AllCameraToggleOn",
+          "samples": [
+            "All Camera Detection Enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AllRecordingToggleOn",
+          "samples": [
+            "All Camera Recording enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AllCameraToggleOff",
+          "samples": [
+            "All Camera detection disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AllRecordingToggleOff",
+          "samples": [
+            "All Camera recording disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AllSnapshotOnIntent",
+          "samples": [
+            "All Camera Snapshot enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "AllSnapshotOffIntent",
+          "samples": [
+            "All Camera Snapshot disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ParkingAreaCameraOnIntent",
+          "samples": [
+            "Parking Area Camera Features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ParkingAreaCameraOffIntent",
+          "samples": [
+            "Parking Area Camera  Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EntranceCameraOnIntent",
+          "samples": [
+            "Entrance Camera Features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EntranceCameraOffIntent",
+          "samples": [
+            "Entrance Camera Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ExitCameraOnIntent",
+          "samples": [
+            "Exit Camera Features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ExitCameraOffIntent",
+          "samples": [
+            "Exit Camera Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LiftAreaCameraOnIntent",
+          "samples": [
+            "Lift Area Camera Features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LiftAreaCameraOffIntent",
+          "samples": [
+            "Lift Area Camera Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BillingSectionCameraOnIntent",
+          "samples": [
+            "Billing Section Camera Features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BillingSectionCameraOffIntent",
+          "samples": [
+            "Billing Section Camera Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FrontDoorEntranceCameraOnIntent",
+          "samples": [
+            "Front door Entrance Features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FrontDoorEntranceCameraOffIntent",
+          "samples": [
+            "Front door Entrance Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LivingRoomCameraOnIntent",
+          "samples": [
+            "Living Room Camera Features On"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LivingRoomCameraOffIntent",
+          "samples": [
+            "Living Room Camera Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BackDoorCameraOnIntent",
+          "samples": [
+            "Back Door Camera Features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BackDoorCameraOffIntent",
+          "samples": [
+            "Back Door camera Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "KitchenCameraOnIntent",
+          "samples": [
+            "Kitchen Camera Features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "KitchenCameraOffIntent",
+          "samples": [
+            "Kitchen Camera Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "OneAmSummaryIntent",
+          "samples": [
+            "Provide Summary of One AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TwoAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Two AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ThreeAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Three AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FourAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Four AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FiveAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Five AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SixAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Six AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SevenAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Seven AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EightAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Eight AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "NineAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Nine AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TenAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Ten AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ElevenAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Eleven AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TwelveAmSummaryIntent",
+          "samples": [
+            "Provide Summary of Twelve AM Events"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "OnePmSummaryIntent",
+          "samples": [
+            "Provide One PM events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TwoPmSummaryIntent",
+          "samples": [
+            "Provide Two PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ThreePmSummaryIntent",
+          "samples": [
+            "Provide Three PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FourPmSummaryIntent",
+          "samples": [
+            "Provide Four PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "FivePmSummaryIntent",
+          "samples": [
+            "Provide Five PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SixPmSummaryIntent",
+          "samples": [
+            "Provide Six PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SevenPmSummaryIntent",
+          "samples": [
+            "Provide Seven PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EightPmSummaryIntent",
+          "samples": [
+            "Provide Eight PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "NinePmSummaryIntent",
+          "samples": [
+            "Provide Nine PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TenPmSummaryIntent",
+          "samples": [
+            "Provide Ten PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ElevenPmSummaryIntent",
+          "samples": [
+            "Provide Eleven PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TwelvePmSummaryIntent",
+          "samples": [
+            "Provide Twelve PM Events Summary"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ParkingAreaCameraSummaryIntent",
+          "samples": [
+            "Parking Area Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EntranceCameraSummaryIntent",
+          "samples": [
+            "Entrance Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ExitCameraSummaryIntent",
+          "samples": [
+            "Exit Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LiftAreaCameraSummaryIntent",
+          "samples": [
+            "Lift Area Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BalconyCameraOnIntent",
+          "samples": [
+            "Balcony Camera features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BalconyCameraOffIntent",
+          "samples": [
+            "Balcony Camera features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BasementCameraOnIntent",
+          "samples": [
+            "Basement Camera features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BasementCameraOffIntent",
+          "samples": [
+            "Basement Camera Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "MainGateCameraOnIntent",
+          "samples": [
+            "Main Gate Camera features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "MainGateCameraOffIntent",
+          "samples": [
+            "Main Gate Camera features Off"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "StoreRoomCameraOnIntent",
+          "samples": [
+            "Store Room Camera features enable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "StoreRoomCameraOffIntent",
+          "samples": [
+            "Store Room Camera Features disable"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BillingSectionCameraSummaryIntent",
+          "samples": [
+            "Billing Section Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LivingRoomCameraSummaryIntent",
+          "samples": [
+            "Living Room Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BackDoorCameraSummaryIntent",
+          "samples": [
+            "Back Door Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "KitchenCameraSummaryIntent",
+          "samples": [
+            "Kitchen Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BalconyCameraSummaryIntent",
+          "samples": [
+            "Balcony Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "BasementCameraSummaryIntent",
+          "samples": [
+            "Basement Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "MainGateCameraSummaryIntent",
+          "samples": [
+            "Main Gate Camera"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "StoreRoomCameraSummaryIntent",
+          "samples": [
+            "Store Room Camera"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Camera9"
+              },
+              "id": "09"
+            },
+            {
+              "name": {
+                "value": "Camera8"
+              },
+              "id": "08"
+            },
+            {
+              "name": {
+                "value": "Camera7"
+              },
+              "id": "07"
+            },
+            {
+              "name": {
+                "value": "Camera6"
+              },
+              "id": "06"
+            },
+            {
+              "name": {
+                "value": "Camera5"
+              },
+              "id": "05"
+            },
+            {
+              "name": {
+                "value": "Camera4"
+              },
+              "id": "04"
+            },
+            {
+              "name": {
+                "value": "Camera3"
+              },
+              "id": "03"
+            },
+            {
+              "name": {
+                "value": "Camera2"
+              },
+              "id": "02"
+            },
+            {
+              "name": {
+                "value": "Camera1"
+              },
+              "id": "01"
+            }
+          ],
+          "name": "Camera_list"
+        }
+      ],
+      "invocationName": "e. v. r"
+    }
+  }
+}
